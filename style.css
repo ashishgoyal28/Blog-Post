@@ -1,0 +1,36 @@
+body{
+    margin-right:20px;
+    margin-left:20px;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.container{
+    width:90%;
+    height:100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;;
+}
+.header{
+    padding:50px;
+    text-align: center;
+}
+.main{
+    padding:50px;
+    width:1200px;
+    height:200px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer{
+    padding:20px;
+    text-align: center;;
+}
+hr{
+    width:100vh;
+}
